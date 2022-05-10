@@ -4,14 +4,13 @@ import Header from './Components/Header/Header';
 import SpaceLaunch from './Components/SpaceLaunch/SpaceLaunch';
 
 function App() {
-  return (
-    <div>
-      <Header></Header>
-      <SpaceLaunch></SpaceLaunch>
-      <h2>Hello World!</h2>
-      <Footer></Footer>
-    </div>
-  );
+    return (
+        <div>
+            <Header />
+            <SpaceLaunch />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
